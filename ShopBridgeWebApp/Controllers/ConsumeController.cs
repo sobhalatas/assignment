@@ -139,7 +139,7 @@ namespace ShopBridgeWebApp.Controllers
         [HttpPost]
         public ActionResult UpdateProduct(ProductModel prd,int productid)
         {
-
+        
             hc.BaseAddress = new Uri("http://localhost:49304/Api/Provider/UpdateProduct1");
            // var consume1 = hc.PutAsync("UpdateProduct1?ProductId=" + productid.ToString(),prd);
            // var consume1 = hc.PutAsJsonAsync("UpdateProduct1?ProductId=" + productid.ToString(), prd);
